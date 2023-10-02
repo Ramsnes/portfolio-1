@@ -1,0 +1,52 @@
+:root {
+  --clr-bg: #f5f5dc;
+  --clr-heading: #242420;
+  --clr-text: #363630;
+  /* clamp(min, preferred, max) */
+  --fs-sm: clamp(0.9375rem, 0.8218rem + 0.6173vw, 1.5625rem);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  color: #242420;
+  background-color: var(--clr-bg);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Heebo", sans-serif;
+  line-height: 1.1;
+}
+
+p {
+  color: var(--clr-text);
+}
+
+.link-hover::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  transition: width 0.5s ease-in-out;
+  background-color: black;
+}
+
+footer {
+  text-align: center;
+  font-size: var(--fs-sm);
+}
+
+footer p {
+  padding-bottom: 2rem;
+}
