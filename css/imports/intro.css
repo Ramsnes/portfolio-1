@@ -1,15 +1,13 @@
 .intro-section {
   height: 100vh;
+  padding-bottom: 1rem;
 }
 
 .intro-content {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-
   height: calc(100% - 70px);
   /* dynamically sets height of the element to 70 pixels less than parent element  */
-
-  padding-bottom: 1rem;
 }
 
 .intro-text-container {
@@ -32,9 +30,10 @@
   margin-right: 1rem;
   font-size: var(--fs-lg);
   /* change to start  */
-  text-align: end;
+  text-align: start;
   /* change to start  */
   justify-self: end;
+  width: 100vw;
 }
 
 .intro-content-bg {
@@ -44,7 +43,7 @@
   min-height: 90%;
   width: 100%;
   align-self: self-start;
-  background-image: url(../../images/morten-farger.png);
+  background-image: url(../../images/morten-farger-2.jpeg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -52,6 +51,10 @@
 }
 
 @media (max-width: 1200px) {
+  .intro-content-text-top {
+    font-size: var(--fs-lg);
+  }
+
   .intro-content {
     grid-template-rows: auto 1fr;
   }
@@ -64,7 +67,7 @@
   .intro-content-text-bottom p {
     margin: 0;
     margin-right: 1rem;
-    font-size: var(--fs-lg);
+    font-size: var(--fs-md);
     text-align: start;
     justify-self: end;
   }
@@ -74,7 +77,7 @@
   }
 
   .intro-content-bg {
-    min-height: 100%;
+    min-height: 70%;
     grid-row-start: 2;
     grid-column-start: 2;
     background-position: left;

@@ -1,0 +1,74 @@
+/* About  */
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 2rem 0;
+}
+
+.about-section h2 {
+  grid-column-start: 2;
+  grid-column-end: 12;
+  margin: 1rem 0;
+  font-size: var(--fs-lg);
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-container {
+  grid-column-start: 2;
+  grid-column-end: 12;
+}
+
+.about-container p {
+  margin: 0 auto 1.2rem;
+}
+
+/* Progress  */
+.progress-title {
+  text-align: center;
+}
+
+.progress-container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  gap: 1.2rem;
+  justify-content: center;
+  /* justify-content: space-around; */
+}
+
+.progress-container div {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #e3e3c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* opacity: 0; */
+}
+
+.language {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.html {
+  background-image: url(../../images/html.png);
+}
+.css {
+  background-image: url(../../images/css.png);
+}
+.js {
+  background-image: url(../../images/js.png);
+}
+.wp {
+  background-image: url(../../images/wp.png);
+}
