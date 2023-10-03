@@ -67,7 +67,7 @@ ul {
   }
 }
 
-.mobile-menu-ul {
+/* .mobile-menu-ul {
   justify-content: center;
   flex-direction: column;
   position: fixed;
@@ -80,7 +80,7 @@ ul {
 
 .mobile-menu-ul li {
   font-size: var(--fs-xl);
-}
+} */
 
 .mobile-menu-header {
   display: flex;
@@ -100,6 +100,26 @@ ul {
   height: 25px;
 }
 
+/* Hamburger menu  */
+/* Source: https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified  */
+.toggle-button {
+  position: absolute;
+  top: 3rem;
+  right: 5rem;
+  display: none; /*Hides in big viewports*/
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
 @media (min-width: 650px) {
   .desktop-menu {
     display: grid;
@@ -111,11 +131,59 @@ ul {
 }
 
 @media (max-width: 650px) {
+  .navbar-links.active {
+    /* padding: 15rem; */
+    background: var(--clr-bg);
+    display: flex;
+    z-index: 500;
+    /* width: 200px; */
+    height: 100%;
+    position: fixed;
+    top: 5rem;
+    /* right: 2.5rem; */
+    animation: slideIn 0.4s forwards;
+    font-size: var(--fs-xl);
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .navbar-links.active ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-links.active ul li {
+    margin: -90px 0px 108px 250px;
+  }
+
   .desktop-menu {
     display: none;
   }
 
   .mobile-menu {
     display: block;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
   }
 }
