@@ -1,10 +1,7 @@
-:root {
-  --clr-bg: #f5f5dc;
-  --clr-heading: #242420;
-  --clr-text: #363630;
-  /* clamp(min, preferred, max) */
-  --fs-sm: clamp(0.9375rem, 0.8218rem + 0.6173vw, 1.5625rem);
-}
+@import url(./imports/navigation.css);
+@import url(./imports/variables.css);
+@import url(./imports/footer.css);
+@import url(./imports/intro.css);
 
 *,
 ::before,
@@ -28,8 +25,28 @@ body {
   line-height: 1.1;
 }
 
+button {
+  font-family: "Heebo", sans-serif;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
 p {
   color: var(--clr-text);
+}
+
+.remove-scroll {
+  overflow: hidden;
+}
+
+.link-hover {
+  display: inline-block;
 }
 
 .link-hover::after {
@@ -42,11 +59,10 @@ p {
   background-color: black;
 }
 
-footer {
-  text-align: center;
-  font-size: var(--fs-sm);
+.link-hover:hover::after {
+  width: 100%;
 }
 
-footer p {
-  padding-bottom: 2rem;
+.hidden {
+  display: none;
 }

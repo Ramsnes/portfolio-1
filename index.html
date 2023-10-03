@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Morten Ramfjords portfolio." />
     <link rel="stylesheet" href="/css/index.css" />
-    <link rel="stylesheet" href="/css/navigation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/x-icon"
@@ -17,7 +22,7 @@
     <main>
       <!-- main  -->
       <section class="intro-section">
-        <header>
+        <header class="header">
           <!-- header  -->
           <nav class="desktop-menu show">
             <span>Morten Ramfjord</span>
@@ -33,7 +38,38 @@
               </li>
             </ul>
           </nav>
+          <nav class="mobile-menu">
+            <div class="mobile-menu-header">
+              <span>Morten Ramfjord</span>
+              <button class="mobile-menu-btn"></button>
+            </div>
+            <ul class="mobile-menu-ul hide">
+              <li>
+                <a href="#about" class="link-hover"></a>
+              </li>
+              <li>
+                <a href="#projects" class="link-hover"></a>
+              </li>
+              <li>
+                <a href="#contact" class="link-hover"></a>
+              </li>
+            </ul>
+          </nav>
         </header>
+        <!-- Introduction  -->
+        <div class="intro-content">
+          <div class="intro-text-container">
+            <div class="intro-content-text-top">
+              <h1>Aspiring front end developer</h1>
+            </div>
+            <div class="intro-content-text-bottom">
+              <p class="intro-span-text">Engaging and inspiring projects</p>
+            </div>
+          </div>
+          <div class="intro-content-bg">
+            <!-- <img src="../../images/morten-farger.png" alt="Morten Ramfjord" /> -->
+          </div>
+        </div>
       </section>
     </main>
     <footer>

@@ -1,0 +1,82 @@
+.intro-section {
+  height: 100vh;
+}
+
+.intro-content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  height: calc(100% - 70px);
+  /* dynamically sets height of the element to 70 pixels less than parent element  */
+
+  padding-bottom: 1rem;
+}
+
+.intro-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  /* change to mix from source  */
+  grid-column-start: 2;
+  grid-column-end: 7;
+  height: 90%;
+}
+
+.intro-content-text-top {
+  font-size: var(--fs-xl);
+}
+
+.intro-span-text {
+  margin: 0;
+  margin-right: 1rem;
+  font-size: var(--fs-lg);
+  /* change to start  */
+  text-align: end;
+  /* change to start  */
+  justify-self: end;
+}
+
+.intro-content-bg {
+  /* change for mix  */
+  grid-column-start: 9;
+  grid-column-end: 12;
+  min-height: 90%;
+  width: 100%;
+  align-self: self-start;
+  background-image: url(../../images/morten-farger.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  .intro-content {
+    grid-template-rows: auto 1fr;
+  }
+
+  .intro-text-container {
+    grid-column-end: 12;
+    margin-top: 2rem;
+  }
+
+  .intro-content-text-bottom p {
+    margin: 0;
+    margin-right: 1rem;
+    font-size: var(--fs-lg);
+    text-align: start;
+    justify-self: end;
+  }
+
+  .intro-span-text span {
+    display: inline-block;
+  }
+
+  .intro-content-bg {
+    min-height: 100%;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    background-position: left;
+  }
+}
