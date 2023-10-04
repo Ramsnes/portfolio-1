@@ -19,7 +19,7 @@
   display: none;
   grid-column-start: 2;
   grid-column-end: 12;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   margin: 100px 0px;
   animation: fadeIn 500ms;
 }
@@ -60,6 +60,7 @@
   border-radius: 5px;
   bottom: 20px;
   left: 20px;
+  grid-column-start: 4;
 }
 
 .crossCourse-link a {
@@ -77,10 +78,25 @@
   cursor: pointer;
   align-self: end;
   position: absolute;
-  grid-column-start: 6;
-  grid-column-end: 8;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .crossCourse-btn:hover {
   background: rgb(232, 197, 108);
+}
+
+@media (max-width: 1000px) {
+  .crossCourse-link {
+    bottom: 20px;
+    left: 20px;
+    grid-column-start: 5;
+  }
+  .crossCourse-btn {
+    color: black;
+    background: goldenrod;
+    font-size: var(--fs-xm);
+    backdrop-filter: blur(5px);
+    padding: 3px 7px;
+  }
 }
