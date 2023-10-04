@@ -133,7 +133,7 @@ ul {
 
 @media (max-width: 650px) {
   .navbar-links.active {
-    background: var(--clr-bg);
+    background: var(--clr-bg-2);
     font-size: var(--fs-xl);
     display: flex;
     z-index: 500;
@@ -173,6 +173,7 @@ ul {
 
   .mobile-menu {
     display: block;
+    background-color: var(--clr-bg-2);
   }
 
   .toggle-button {

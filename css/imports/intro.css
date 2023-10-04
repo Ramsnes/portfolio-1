@@ -54,14 +54,10 @@
 @media (max-width: 1200px) {
   .intro-content-bg {
     /* change for mix  */
-    grid-column-start: 9;
-    grid-column-end: 12;
-    width: 100%;
+    grid-column-start: 3;
+    grid-column-end: 6;
     padding-bottom: 100%; /* This ensures the container is a perfect square */
     position: relative;
-    background-image: url(../../images/morten-farger-2.jpeg);
-    background-repeat: no-repeat;
-    background-position: right;
     background-size: cover; /* Use 'cover' to ensure the image covers the entire square container */
     border-radius: 50%; /* Apply a circular mask */
   }

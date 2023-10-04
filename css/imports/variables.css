@@ -1,5 +1,6 @@
 :root {
   --clr-bg: #f5f5dc;
+  --clr-bg-2: #c56b6b;
   --clr-heading: #242420;
   --clr-text: #363630;
   /* clamp(min, preferred, max) */
