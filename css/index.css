@@ -21,6 +21,7 @@ html,
 body {
   color: #242420;
   background-color: var(--clr-bg);
+  background-color: rgb(197 107 107);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -43,6 +44,7 @@ h4 {
 
 p {
   color: var(--clr-text);
+  font-size: var(--fs-sm);
 }
 
 .remove-scroll {

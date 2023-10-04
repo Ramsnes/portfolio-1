@@ -60,6 +60,10 @@
   grid-column-start: 4;
 }
 
+.semester-link:hover {
+  background: rgb(232, 197, 108);
+}
+
 .semester-link a {
   color: #000;
 }

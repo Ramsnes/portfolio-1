@@ -60,6 +60,10 @@
   grid-column-start: 4;
 }
 
+.projectExam-link:hover {
+  background: rgb(232, 197, 108);
+}
+
 .projectExam-link a {
   color: #000;
 }

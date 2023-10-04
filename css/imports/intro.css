@@ -31,7 +31,7 @@
   /* margin-right: 1rem; */
   font-size: var(--fs-lg);
   /* change to start  */
-  text-align: start;
+  text-align: end;
   /* change to start  */
   /* justify-self: end; */
   /* width: 100vw; */
@@ -52,6 +52,20 @@
 }
 
 @media (max-width: 1200px) {
+  .intro-content-bg {
+    /* change for mix  */
+    grid-column-start: 9;
+    grid-column-end: 12;
+    width: 100%;
+    padding-bottom: 100%; /* This ensures the container is a perfect square */
+    position: relative;
+    background-image: url(../../images/morten-farger-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover; /* Use 'cover' to ensure the image covers the entire square container */
+    border-radius: 50%; /* Apply a circular mask */
+  }
+
   .intro-content-text-top {
     font-size: var(--fs-lg);
   }
@@ -71,6 +85,10 @@
     font-size: var(--fs-md);
     text-align: start;
     justify-self: end;
+  }
+
+  .intro-span-text {
+    text-align: start;
   }
 
   .intro-span-text span {

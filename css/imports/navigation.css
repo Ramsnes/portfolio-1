@@ -26,6 +26,7 @@ ul {
   grid-template-columns: repeat(12, 1fr);
   font-size: var(--fs-sm);
   height: 4.5rem;
+  font-size: 1.8rem;
 }
 
 .desktop-menu span {
@@ -132,17 +133,20 @@ ul {
 
 @media (max-width: 650px) {
   .navbar-links.active {
-    /* padding: 15rem; */
     background: var(--clr-bg);
+    font-size: var(--fs-xl);
     display: flex;
     z-index: 500;
-    /* width: 200px; */
     height: 100%;
+    width: 100%;
     position: fixed;
-    top: 5rem;
-    /* right: 2.5rem; */
+    top: 0;
+    left: 0;
     animation: slideIn 0.4s forwards;
-    font-size: var(--fs-xl);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   @keyframes slideIn {
@@ -160,10 +164,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .navbar-links.active ul li {
-    margin: -90px 0px 108px 250px;
+    height: 100vh;
   }
 
   .desktop-menu {
@@ -176,6 +177,7 @@ ul {
 
   .toggle-button {
     display: flex;
+    z-index: 600;
   }
 
   .desktop-menu {

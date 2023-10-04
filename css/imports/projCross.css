@@ -63,6 +63,10 @@
   grid-column-start: 4;
 }
 
+.crossCourse-link:hover {
+  background: rgb(232, 197, 108);
+}
+
 .crossCourse-link a {
   color: #000;
 }
