@@ -27,13 +27,13 @@
 
 .intro-span-text {
   margin: 0;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   font-size: var(--fs-lg);
   /* change to start  */
   text-align: start;
   /* change to start  */
-  justify-self: end;
-  width: 100vw;
+  /* justify-self: end; */
+  /* width: 100vw; */
 }
 
 .intro-content-bg {
