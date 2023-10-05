@@ -21,7 +21,7 @@ html,
 body {
   color: #242420;
   /* background-color: var(--clr-bg); */
-  background-color: #c56b6b;
+  background-color: var(--clr-bg-2);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -45,6 +45,26 @@ h4 {
 p {
   color: var(--clr-text);
   font-size: var(--fs-sm);
+}
+
+button {
+  color: black;
+  background: var(--clr-bg-2);
+  font-size: var(--fs-xm);
+  padding: 7px 15px;
+  margin: 0 auto 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: end;
+  position: absolute;
+}
+
+button:hover {
+  background: rgb(232, 197, 108);
+}
+
+button a {
+  color: #000;
 }
 
 .remove-scroll {
@@ -71,4 +91,49 @@ p {
 
 .hidden {
   display: none;
+}
+
+.projects-section .semester-card,
+.crossCourse-card,
+.projectExam-card {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Makes image in place */
+  background-position: center;
+}
+
+.projects-section h1 {
+  text-align: center;
+  font-size: var(--fs-lg);
+  margin-top: 12rem;
+}
+
+.projects-section h2 {
+  grid-column-start: 2;
+  font-size: var(--fs-lg);
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+.projects-section p {
+  grid-column-start: 2;
+  margin: 0;
+  padding: 30px;
+}
+
+.projects-section .crossCourse-description,
+.semester-description,
+.projectExam-description {
+  display: none;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 100px 0px;
+  animation: fadeIn 500ms;
+  color: var(--clr-text);
 }

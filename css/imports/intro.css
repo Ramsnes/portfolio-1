@@ -60,6 +60,8 @@
     position: relative;
     background-size: cover; /* Use 'cover' to ensure the image covers the entire square container */
     border-radius: 50%; /* Apply a circular mask */
+    top: 50px;
+    left: 75%;
   }
 
   .intro-content-text-top {

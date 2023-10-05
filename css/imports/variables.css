@@ -1,12 +1,12 @@
 :root {
   --clr-bg: #f5f5dc;
-  --clr-bg-2: #c56b6b;
+  --clr-bg-2: #daa520;
   --clr-heading: #242420;
   --clr-text: #363630;
   /* clamp(min, preferred, max) */
   --fs-sm: clamp(0.9375rem, 0.8218rem + 0.6173vw, 1.5625rem);
-  --clr-text-modal: #c8c8c8;
-  --clr-cta-modal: #fbfbfb;
+  --clr-text: #daa520;
+  --clr-cta: #daa520;
 
   /*Font Size*/
   --fs-sm: clamp(0.9375rem, 0.8218rem + 0.6173vw, 1.5625rem);

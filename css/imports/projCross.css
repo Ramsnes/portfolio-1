@@ -1,27 +1,6 @@
-.projects-section {
-}
-
 /* Cross Course */
 .crossCourse-card {
-  color: goldenrod;
-  display: grid;
-  height: 100vh;
-  grid-template-columns: repeat(12, 1fr);
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; /* Makes image in place */
-  background-position: center;
   background-image: url(../../images/crossProjectLarge.jpeg);
-}
-
-.crossCourse-description {
-  display: none;
-  grid-column-start: 2;
-  grid-column-end: 12;
-  background-color: rgba(0, 0, 0, 0.9);
-  margin: 100px 0px;
-  animation: fadeIn 500ms;
 }
 
 @keyframes fadeIn {
@@ -33,74 +12,20 @@
   }
 }
 
-.crossCourse-h2 {
-  /* Make gradient  */
-  grid-column-start: 2;
-  margin: 0;
-  font-size: var(--fs-lg);
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); */
-  padding: 10px;
-  text-align: center;
-}
-
-.crossCourse-p {
-  grid-column-start: 2;
-  margin: 0;
-  color: goldenrod;
-  padding: 10px;
+.crossCourse-btn {
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 
 .crossCourse-link {
-  margin-bottom: 10px;
-  cursor: pointer;
-  align-self: end;
-  position: absolute;
-  padding: 10px;
-  background: goldenrod;
-  border-radius: 5px;
-  bottom: 20px;
-  left: 20px;
-  grid-column-start: 4;
+  grid-column-start: 6;
+  grid-column-end: 7;
 }
 
-.crossCourse-link:hover {
-  background: rgb(232, 197, 108);
-}
-
-.crossCourse-link a {
-  color: #000;
-}
-
-.crossCourse-btn {
-  color: black;
-  background: goldenrod;
-  font-size: var(--fs-xm);
-  backdrop-filter: blur(5px);
-  padding: 7px 15px;
-  margin: 0 auto 30px;
-  border-radius: 5px;
-  cursor: pointer;
-  align-self: end;
-  position: absolute;
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-.crossCourse-btn:hover {
-  background: rgb(232, 197, 108);
+.crossCourse-repo {
+  grid-column-start: 8;
+  grid-column-end: 9;
 }
 
 @media (max-width: 1000px) {
-  .crossCourse-link {
-    bottom: 20px;
-    left: 20px;
-    grid-column-start: 5;
-  }
-  .crossCourse-btn {
-    color: black;
-    background: goldenrod;
-    font-size: var(--fs-xm);
-    backdrop-filter: blur(5px);
-    padding: 3px 7px;
-  }
 }
