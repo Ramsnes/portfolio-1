@@ -97,7 +97,7 @@ button a {
 .crossCourse-card,
 .projectExam-card {
   display: grid;
-  height: 100vh;
+  height: 80vh;
   grid-template-columns: repeat(12, 1fr);
   position: relative;
   background-repeat: no-repeat;

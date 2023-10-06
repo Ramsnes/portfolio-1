@@ -24,9 +24,8 @@ ul {
 .desktop-menu {
   place-content: center;
   grid-template-columns: repeat(12, 1fr);
-  font-size: var(--fs-sm);
   height: 4.5rem;
-  font-size: 1.8rem;
+  font-size: var(--fs-md);
 }
 
 .desktop-menu span {
@@ -174,6 +173,12 @@ ul {
   .mobile-menu {
     display: block;
     background-color: var(--clr-bg-2);
+  }
+
+  .mobile-menu span {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    font-size: var(--fs-sm);
   }
 
   .toggle-button {

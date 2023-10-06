@@ -4,12 +4,11 @@
   --clr-bg-3: #73778c;
   --clr-heading: #242420;
   --clr-text: #363630;
-  /* clamp(min, preferred, max) */
-  --fs-sm: clamp(0.9375rem, 0.8218rem + 0.6173vw, 1.5625rem);
   --clr-text2: #daa520;
   --clr-cta: #daa520;
 
   /*Font Size*/
+  /* clamp(min, preferred, max) */
   --fs-sm: clamp(0.9375rem, 0.8218rem + 0.6173vw, 1.5625rem);
   --fs-md: clamp(1.5625rem, 1.4468rem + 0.6173vw, 2.1875rem);
   --fs-lg: clamp(1.875rem, 1.5278rem + 1.8519vw, 3.75rem);
