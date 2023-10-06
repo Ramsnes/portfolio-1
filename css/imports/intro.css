@@ -38,30 +38,33 @@
 }
 
 .intro-content-bg {
-  /* change for mix  */
   grid-column-start: 9;
   grid-column-end: 12;
-  min-height: 90%;
+  height: 538px;
   width: 100%;
-  align-self: self-start;
+  align-self: center;
   background-image: url(../../images/morten-farger-2.jpeg);
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
   position: relative;
+  border: 3px solid black;
 }
 
 @media (max-width: 1200px) {
   .intro-content-bg {
-    /* change for mix  */
     grid-column-start: 3;
     grid-column-end: 6;
-    padding-bottom: 100%; /* This ensures the container is a perfect square */
-    position: relative;
-    background-size: cover; /* Use 'cover' to ensure the image covers the entire square container */
-    border-radius: 50%; /* Apply a circular mask */
+    padding-bottom: 100%;
+    border-radius: 50%;
     top: 50px;
     left: 75%;
+    height: 90%;
+    width: 100%;
+    align-self: self-start;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   .intro-content-text-top {
@@ -91,12 +94,5 @@
 
   .intro-span-text span {
     display: inline-block;
-  }
-
-  .intro-content-bg {
-    min-height: 70%;
-    grid-row-start: 2;
-    grid-column-start: 2;
-    background-position: left;
   }
 }
