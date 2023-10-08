@@ -179,7 +179,8 @@ ul {
   .mobile-menu span {
     grid-column-start: 2;
     grid-column-end: 7;
-    font-size: var(--fs-md);
+    font-size: var(--fs-sm);
+    align-self: flex-end;
   }
 
   .toggle-button {
