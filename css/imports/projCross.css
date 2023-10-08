@@ -27,5 +27,8 @@
   grid-column-end: 9;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 650px) {
+  .crossCourse-card {
+    background-image: url(../../images/crossProjectMobile.png);
+  }
 }

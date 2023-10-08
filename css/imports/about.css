@@ -10,7 +10,7 @@
   grid-column-end: 12;
   margin: 1rem 0;
   font-size: var(--fs-lg);
-  padding-top: 2.5rem;
+  /* padding-top: 2.5rem; */
 }
 
 .about-title {

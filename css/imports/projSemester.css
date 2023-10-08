@@ -55,3 +55,9 @@
     padding: 3px 7px;
   }
 }
+
+@media (max-width: 650px) {
+  .semester-card {
+    background-image: url(../../images/semesterMobile.png);
+  }
+}
