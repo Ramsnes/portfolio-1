@@ -167,4 +167,8 @@ button a {
   .livesite img {
     width: 50px;
   }
+
+  .intro-content-text-top {
+    margin-bottom: 0;
+  }
 }
