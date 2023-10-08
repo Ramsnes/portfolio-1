@@ -181,6 +181,7 @@ ul {
     grid-column-end: 7;
     font-size: 1.2rem;
     align-self: flex-end;
+    font-weight: 800;
   }
 
   .toggle-button {
