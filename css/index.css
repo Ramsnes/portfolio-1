@@ -157,6 +157,7 @@ button a {
   .logos {
     justify-content: center;
     gap: 0rem;
+    border-bottom: 2px solid #000;
   }
 
   .github img {
