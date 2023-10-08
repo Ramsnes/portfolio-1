@@ -152,3 +152,18 @@ button a {
 .livesite img {
   width: 100px;
 }
+
+@media (max-width: 650px) {
+  .logos {
+    justify-content: center;
+    gap: 0rem;
+  }
+
+  .github img {
+    width: 100px;
+  }
+
+  .livesite img {
+    width: 50px;
+  }
+}
