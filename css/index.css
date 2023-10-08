@@ -19,7 +19,7 @@ html {
 
 html,
 body {
-  color: #242420;
+  color: var(--clr-text);
   /* background-color: var(--clr-bg); */
   background-color: var(--clr-bg-2);
   height: 100%;
@@ -136,4 +136,19 @@ button a {
   margin: 100px 0px;
   animation: fadeIn 500ms;
   color: var(--clr-text);
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.github img {
+  width: 150px;
+}
+.livesite img {
+  width: 100px;
 }

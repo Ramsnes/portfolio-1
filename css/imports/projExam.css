@@ -45,16 +45,4 @@
 }
 
 @media (max-width: 1000px) {
-  .projectExam-link {
-    /* bottom: 20px;
-    left: 20px;
-    grid-column-start: 5; */
-  }
-  .projectExam-btn {
-    /* color: black;
-    background: goldenrod;
-    font-size: var(--fs-xm);
-    backdrop-filter: blur(5px);
-    padding: 3px 7px; */
-  }
 }

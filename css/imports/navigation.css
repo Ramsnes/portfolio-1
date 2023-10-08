@@ -24,6 +24,7 @@ ul {
 .desktop-menu {
   place-content: center;
   grid-template-columns: repeat(12, 1fr);
+  font-size: var(--fs-sm);
   height: 4.5rem;
   font-size: var(--fs-md);
 }
@@ -104,8 +105,8 @@ ul {
 /* Source: https://www.youtube.com/watch?v=At4B7A4GOPg&ab_channel=WebDevSimplified  */
 .toggle-button {
   position: absolute;
-  top: 3rem;
-  right: 1rem;
+  top: 2rem;
+  right: 3rem;
   display: none; /*Hides in big viewports*/
   flex-direction: column;
   justify-content: space-between;
