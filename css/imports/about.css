@@ -73,3 +73,10 @@
 .wp {
   background-image: url(../../images/wp.png);
 }
+
+@media (max-width: 650px) {
+  .progress-container div {
+    width: 100px;
+    height: 100px;
+  }
+}
