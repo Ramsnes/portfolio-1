@@ -30,11 +30,6 @@ body {
   line-height: 1.1;
 }
 
-/* button {
-  font-family: "Heebo", sans-serif;
-  cursor: pointer;
-} */
-
 h1,
 h2,
 h3,
@@ -48,23 +43,16 @@ p {
 }
 
 button {
-  color: black;
-  background: var(--clr-bg-2);
+  background: #000;
+  color: #ffe4c4;
   font-size: var(--fs-xm);
-  padding: 7px 15px;
-  margin: 0 auto 30px;
+  padding: 10px 25px;
   border-radius: 5px;
   cursor: pointer;
-  align-self: end;
-  position: absolute;
 }
 
 button:hover {
-  background: rgb(232, 197, 108);
-}
-
-button a {
-  color: #000;
+  background: rgb(45, 45, 45);
 }
 
 .remove-scroll {
@@ -101,7 +89,7 @@ button a {
   grid-template-columns: repeat(12, 1fr);
   position: relative;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed; /* Makes image in place */
   background-position: center;
 }
@@ -118,12 +106,14 @@ button a {
   margin: 0;
   padding: 30px;
   text-align: center;
+  color: #ffe4c4;
 }
 
 .projects-section p {
   grid-column-start: 2;
   margin: 0;
   padding: 30px;
+  color: bisque;
 }
 
 .projects-section .crossCourse-description,
@@ -133,9 +123,10 @@ button a {
   grid-column-start: 2;
   grid-column-end: 12;
   background-color: rgba(0, 0, 0, 0.9);
-  margin: 100px 0px;
+  margin: auto;
   animation: fadeIn 500ms;
   color: var(--clr-text);
+  border-radius: 5px;
 }
 
 .logos {
@@ -156,7 +147,7 @@ button a {
 @media (max-width: 650px) {
   .logos {
     justify-content: center;
-    gap: 0rem;
+    gap: 1.5rem;
     border-bottom: 2px solid #000;
   }
 

@@ -12,9 +12,7 @@ button.addEventListener("click", () => {
   description.style.display = isDescriptionVisible ? "grid" : "none";
 
   // Updates the button text based on the state
-  button.textContent = isDescriptionVisible
-    ? "Hide description"
-    : "Show description";
+  button.textContent = isDescriptionVisible ? "Hide" : "Show";
 });
 
 //
@@ -33,9 +31,7 @@ button2.addEventListener("click", () => {
   description1.style.display = isDescription1Visible ? "grid" : "none";
 
   // Updates the button text based on the state
-  button2.textContent = isDescription1Visible
-    ? "Hide description"
-    : "Show description";
+  button2.textContent = isDescription1Visible ? "Hide" : "Show";
 });
 
 //
@@ -54,7 +50,5 @@ button3.addEventListener("click", () => {
   description2.style.display = isDescription2Visible ? "grid" : "none";
 
   // Updates the button text based on the state
-  button3.textContent = isDescription2Visible
-    ? "Hide description"
-    : "Show description";
+  button3.textContent = isDescription2Visible ? "Hide" : "Show";
 });

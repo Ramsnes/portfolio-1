@@ -12,48 +12,9 @@
   }
 }
 
-.semester-h2 {
-  /* Make gradient  */
-  grid-column-start: 2;
-  margin: 0;
-  font-size: var(--fs-lg);
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); */
-  padding: 10px;
-  text-align: center;
-}
-
-.semester-p {
-  grid-column-start: 2;
-  margin: 0;
-  color: goldenrod;
-  padding: 10px;
-}
-
 .semester-btn {
   grid-column-start: 4;
   grid-column-end: 5;
-}
-
-.semester-link {
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-
-.semester-repo {
-  grid-column-start: 8;
-  grid-column-end: 9;
-}
-
-@media (max-width: 1000px) {
-  .semester-link {
-    bottom: 20px;
-    left: 20px;
-    grid-column-start: 5;
-  }
-  .semester-btn {
-    font-size: var(--fs-xm);
-    padding: 3px 7px;
-  }
 }
 
 @media (max-width: 650px) {

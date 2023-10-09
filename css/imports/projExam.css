@@ -12,36 +12,9 @@
   }
 }
 
-.projectExam-h2 {
-  /* Make gradient  */
-  grid-column-start: 2;
-  margin: 0;
-  font-size: var(--fs-lg);
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); */
-  padding: 10px;
-  text-align: center;
-}
-
-.projectExam-p {
-  grid-column-start: 2;
-  margin: 0;
-  color: goldenrod;
-  padding: 10px;
-}
-
 .projectExam-btn {
   grid-column-start: 4;
   grid-column-end: 5;
-}
-
-.projectExam-link {
-  grid-column-start: 6;
-  grid-column-end: 7;
-}
-
-.projectExam-repo {
-  grid-column-start: 8;
-  grid-column-end: 9;
 }
 
 @media (max-width: 650px) {
