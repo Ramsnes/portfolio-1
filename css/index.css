@@ -101,7 +101,7 @@ button a {
   grid-template-columns: repeat(12, 1fr);
   position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed; /* Makes image in place */
   background-position: center;
 }
