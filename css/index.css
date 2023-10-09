@@ -145,6 +145,10 @@ button:hover {
 }
 
 @media (max-width: 650px) {
+  .projects-section h2 {
+    font-size: var(--fs-md);
+  }
+
   .logos {
     justify-content: center;
     gap: 1.5rem;
