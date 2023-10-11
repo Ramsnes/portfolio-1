@@ -81,13 +81,13 @@
             School of Technology and Digital Media.
           </p>
           <p>
+            What draws me back to coding every day, is all the coding-techniques
+            there is to apply to whatever project I am creating.
+          </p>
+          <p>
             I enjoy finding new styles to apply to my projects, and being able
             to see my codes unfold directly on the screen is why I love
             Front-End.
-          </p>
-          <p>
-            What draws me back to coding is all the coding-techniques there is
-            to apply to whatever I am making.
           </p>
         </div>
         <h2 class="progress-title">Works in progress</h2>
@@ -186,7 +186,7 @@
         </div>
         <div class="logos">
           <div class="github">
-            <a href="https://singular-cheesecake-503a97.netlify.app/">
+            <a href="https://github.com/Ramsnes/projectExam1Private">
               <img
                 src="./images/vecteezy_github-logo-black-transparent-png_24555459_450.png"
                 alt="live icon"
@@ -204,6 +204,77 @@
           </div>
         </div>
       </section>
+
+      <section class="contact-section" id="contact">
+        <h1>Contact me</h1>
+
+        <div class="contact-text">
+          <p>
+            Please feel free to contact us by phone, email, or simply visiting
+            our establishment. For any enquieries you may have, please leave
+            your email addres and subject in our contact form to make sure you
+            get a proper response to the proper channel.
+          </p>
+          <p>Phone: 555-6626-978</p>
+          <p>Instagram: jiujitsublog</p>
+          <p>Address: Båtmannsgata 4, trondheim</p>
+        </div>
+        <div class="contact-form">
+          <div id="error"></div>
+
+          <form id="form" novalidate>
+            <fieldset>
+              <legend>Contact us</legend>
+              <div>
+                <label for="nameField">Full name</label>
+                <!--this ("nameField") is changed from "name" to correct WAVE-->
+                <input
+                  type="text"
+                  name="name"
+                  id="nameField"
+                  class="form__input"
+                />
+                <div class="nameError"></div>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form__input"
+                />
+                <div class="emailError"></div>
+              </div>
+
+              <div>
+                <label for="subject">Subject:</label>
+                <textarea
+                  id="subject"
+                  name="subject"
+                  rows="1"
+                  cols="20"
+                  class="subject"
+                ></textarea>
+                <div class="subjectError"></div>
+              </div>
+
+              <div>
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="1"
+                  cols="20"
+                  class="message"
+                ></textarea>
+                <div class="messageBoxError"></div>
+              </div>
+            </fieldset>
+            <button id="formButton" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- footer  -->
@@ -212,5 +283,6 @@
     </footer>
     <script src="./js/hamburger.js"></script>
     <script src="./js/projectsToggles.js"></script>
+    <script src="./js/contact.js"></script>
   </body>
 </html>

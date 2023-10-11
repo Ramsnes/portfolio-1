@@ -1,0 +1,203 @@
+.contact-section h1 {
+  font-size: var(--fs-lg);
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*header differs from index for some reason*/
+header {
+  margin-top: 30px;
+}
+
+/*
+  Contact form
+  */
+.contact-form {
+  margin: 10px;
+  /* border: 2px solid white; */
+}
+
+.contact-info p {
+  color: #ddd;
+  margin: 20px 0px;
+}
+
+/* Colors the error messages */
+.nameError,
+.emailError,
+.subjectError,
+.messageBoxError {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--fs-sm);
+  color: var(--clr-errorText);
+  font-weight: 600;
+}
+
+form {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  font-size: var(--fs-sm);
+}
+
+form fieldset {
+  max-width: 182px;
+  max-height: 600px;
+  overflow-y: auto; /* Add vertical scroll if the content overflows */
+  border: 2px solid;
+  border-color: var(--clr-text);
+  border-radius: 5px;
+}
+
+form fieldset input {
+  width: 600px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#message,
+#subject {
+  padding: 10px;
+}
+
+fieldset div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+#error {
+  display: none; /* hide messages above, but keep code */
+  font-size: 1.3rem;
+  margin: 10px 300px 20px;
+  color: rgb(220, 59, 59);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px 250px;
+}
+
+#formButton {
+  background: rgb(194 175 116);
+  width: 200px;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  color: #000;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(0.9);
+}
+
+#formButton:hover {
+  background: rgb(234, 210, 140);
+  transform: scale(1);
+}
+
+.button-wrapper {
+  display: flex;
+  margin: 10px 0 10px 15px;
+}
+
+.contact-form h1 {
+  margin: auto;
+  font-size: 1.1em;
+}
+
+.contact-form {
+  justify-content: center;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form p {
+  text-align: center;
+  margin: 8px;
+}
+
+.contact-text {
+  margin: 0 300px;
+}
+
+@media (max-width: 1000px) {
+  header {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  form fieldset input {
+    /* width: 390px; */
+    width: 200px;
+  }
+
+  .nameError,
+  .emailError,
+  .subjectError,
+  .messageBoxError {
+    font-size: 0.9rem;
+  }
+
+  #error {
+    margin: 0 100px 20px;
+    font-size: 1.2rem;
+  }
+
+  #form {
+    font-size: 1.2rem;
+  }
+
+  .contact-text {
+    margin: 0 100px;
+  }
+
+  #formButton {
+    width: 150px;
+    padding: 0.65rem;
+    /* font-size: 0.75; */
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    margin: 12px auto 40px;
+  }
+
+  .nameError,
+  .emailError,
+  .subjectError,
+  .messageBoxError {
+    font-size: 0.8rem;
+  }
+
+  .contact-text {
+    margin: 0 50px;
+  }
+
+  #error {
+    margin: 0px 50px 5px;
+    font-size: 1rem;
+  }
+
+  #form {
+    font-size: 1rem;
+  }
+
+  .toggle-button {
+    top: 1.4rem;
+  }
+
+  .logo {
+    top: 0.75rem;
+  }
+}
