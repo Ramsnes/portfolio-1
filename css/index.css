@@ -156,6 +156,7 @@ img {
   .crossCourse-card,
   .projectExam-card {
     background-attachment: scroll;
+    background-position: top;
   }
 
   .projects-section h2 {
