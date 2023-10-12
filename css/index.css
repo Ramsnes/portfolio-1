@@ -93,10 +93,11 @@ img {
   height: 70vh;
   grid-template-columns: repeat(12, 1fr);
   position: relative;
-  background-repeat: space;
+  background-repeat: no-repeat;
   background-size: cover;
-  /* background-size: contain; */
-  background-attachment: scroll; /* Makes image in place */
+  /* background-size: contain;  works on iphone*/
+  background-attachment: fixed; /* Makes image in place */
+  /* background-attachment: scroll; works on iphone*/
   background-position: center;
 }
 
