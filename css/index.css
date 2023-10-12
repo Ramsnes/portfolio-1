@@ -96,7 +96,7 @@ img {
   background-repeat: space;
   background-size: cover;
   /* background-size: contain; */
-  background-attachment: fixed; /* Makes image in place */
+  background-attachment: scroll; /* Makes image in place */
   background-position: center;
 }
 
