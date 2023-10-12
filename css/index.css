@@ -93,7 +93,7 @@ img {
   height: 70vh;
   grid-template-columns: repeat(12, 1fr);
   position: relative;
-  background-repeat: no-repeat;
+  background-repeat: space;
   /* background-size: cover; */
   background-size: contain;
   background-attachment: fixed; /* Makes image in place */
