@@ -55,6 +55,9 @@ button {
 button:hover {
   background: rgb(45, 45, 45);
 }
+img {
+  max-width: 100%;
+}
 
 .remove-scroll {
   overflow: hidden;
