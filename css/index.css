@@ -152,6 +152,12 @@ img {
 }
 
 @media (max-width: 650px) {
+  .projects-section .semester-card,
+  .crossCourse-card,
+  .projectExam-card {
+    background-attachment: scroll;
+  }
+
   .projects-section h2 {
     font-size: var(--fs-md);
   }
