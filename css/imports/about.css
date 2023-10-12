@@ -68,6 +68,10 @@
 }
 
 @media (max-width: 650px) {
+  .progress-container {
+    justify-content: center;
+  }
+
   .progress-container div {
     width: 100px;
     height: 100px;
