@@ -71,8 +71,9 @@ button:hover {
   cursor: pointer;
   display: none;
   z-index: 1000;
-  padding: 10px 40px;
+  padding: 10px 20px;
   margin: 0;
+  border-radius: 50%;
 }
 
 .scroll-to-top:hover {
@@ -183,9 +184,9 @@ img {
 }
 
 @media (max-width: 650px) {
-  .projects-section h2 {
+  /* .projects-section h2 {
     font-size: var(--fs-md);
-  }
+  } */
 
   .logos {
     justify-content: center;
