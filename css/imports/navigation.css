@@ -133,7 +133,7 @@ ul {
 
 @media (max-width: 650px) {
   .navbar-links.active {
-    background: var(--clr-bg-2);
+    background: var(--clr-bg);
     font-size: var(--fs-xl);
     display: flex;
     z-index: 500;
