@@ -36,6 +36,7 @@ h2,
 h3,
 h4 {
   text-transform: uppercase;
+  color: var(--clr-text);
 }
 
 p {
@@ -113,14 +114,12 @@ img {
   margin: 0;
   padding: 30px;
   text-align: center;
-  color: #ffe4c4;
 }
 
 .projects-section p {
   grid-column-start: 2;
   margin: 0;
   padding: 30px;
-  color: bisque;
 }
 
 .projects-section .crossCourse-description,
@@ -129,11 +128,12 @@ img {
   display: none;
   grid-column-start: 2;
   grid-column-end: 12;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(242, 242, 217, 0.95);
   margin: auto;
   animation: fadeIn 500ms;
   color: var(--clr-text);
   border-radius: 5px;
+  border: 2px solid black;
 }
 
 .logos {
@@ -179,5 +179,13 @@ img {
 
   .intro-content-text-top {
     margin-bottom: 0;
+  }
+
+  button {
+    padding: 5px 25px;
+  }
+
+  button span {
+    font-size: 0.8rem;
   }
 }
