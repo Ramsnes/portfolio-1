@@ -70,6 +70,7 @@ button:hover {
   cursor: pointer;
   display: none;
   z-index: 1000;
+  padding: 10px 30px;
 }
 
 .scroll-to-top:hover {
