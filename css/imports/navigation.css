@@ -106,6 +106,12 @@ ul {
   border-radius: 10px;
 }
 
+@media (max-width: 800px) {
+  .desktop-menu li a {
+    font-size: 1.3rem;
+  }
+}
+
 @media (min-width: 650px) {
   .desktop-menu {
     display: grid;

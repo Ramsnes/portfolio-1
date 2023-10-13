@@ -24,6 +24,20 @@
 
 .intro-content-text-top {
   font-size: var(--fs-xl);
+
+  animation: popIntoView 1.5s forwards;
+}
+
+@keyframes popIntoView {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .intro-span-text {
