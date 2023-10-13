@@ -2,7 +2,7 @@
 .about-section {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 .about-section h2 {

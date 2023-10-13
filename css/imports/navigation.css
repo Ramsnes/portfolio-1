@@ -68,21 +68,6 @@ ul {
   }
 }
 
-/* .mobile-menu-ul {
-  justify-content: center;
-  flex-direction: column;
-  position: fixed;
-  z-index: 500;
-  margin-top: 50px;
-  background-color: var(--clr-bg);
-  inset: 0;
-  padding: 1rem;
-}
-
-.mobile-menu-ul li {
-  font-size: var(--fs-xl);
-} */
-
 .mobile-menu-header {
   display: flex;
   justify-content: space-between;
