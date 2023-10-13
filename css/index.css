@@ -170,7 +170,7 @@ img {
   width: 100px;
 }
 
-@media (max-width: 100px) {
+@media (max-width: 1000px) {
   .projects-section .semester-card,
   .crossCourse-card,
   .projectExam-card {
