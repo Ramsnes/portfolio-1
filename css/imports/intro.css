@@ -40,7 +40,7 @@
 .intro-content-bg {
   grid-column-start: 9;
   grid-column-end: 12;
-  width: 90%;
+  width: 110%;
   height: 70%;
   align-self: center;
   background-image: url(../../images/morten-farger-2.jpeg);
