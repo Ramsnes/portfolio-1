@@ -58,6 +58,24 @@ button:hover {
   background: rgb(45, 45, 45);
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  color: #ffe4c4;
+  font-size: var(--fs-sm);
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  background: rgb(45, 45, 45);
+}
+
 img {
   max-width: 100%;
 }
@@ -188,5 +206,10 @@ img {
 
   button span {
     font-size: 0.8rem;
+  }
+
+  .scroll-to-top {
+    font-size: 0.75rem;
+    padding: 10px 15px;
   }
 }
