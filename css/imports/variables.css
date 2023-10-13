@@ -1,9 +1,6 @@
 :root {
-  --clr-bg: #f5f5dc;
+  --clr-bg: #f2f2d9;
   --clr-bg-2: #688f9b;
-  --clr-bg-3: #73778c;
-  --clr-heading: #242420;
-  /* --clr-text: #363630; */
   --clr-text: #242420;
   --clr-errorText: #6e2c2c;
 
