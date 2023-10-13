@@ -170,14 +170,16 @@ img {
   width: 100px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 100px) {
   .projects-section .semester-card,
   .crossCourse-card,
   .projectExam-card {
     background-attachment: scroll;
     background-position: top;
   }
+}
 
+@media (max-width: 650px) {
   .projects-section h2 {
     font-size: var(--fs-md);
   }
