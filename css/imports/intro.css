@@ -84,6 +84,7 @@
 
   .intro-content-text-top {
     font-size: var(--fs-lg);
+    text-align: center;
   }
 
   .intro-content {
