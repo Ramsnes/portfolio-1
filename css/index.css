@@ -120,9 +120,7 @@ img {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-size: contain;  works on iphone*/
-  background-attachment: fixed; /* Makes image in place */
-  /* background-attachment: scroll; works on iphone*/
+  background-attachment: fixed;
   background-position: center;
 }
 
