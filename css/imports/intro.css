@@ -24,7 +24,6 @@
 
 .intro-content-text-top {
   font-size: var(--fs-xl);
-
   animation: popIntoView 1.5s forwards;
 }
 
@@ -64,6 +63,7 @@
   position: relative;
   border: 2px solid black;
   /* border-radius: 50%; */
+  animation: popIntoView 1.5s forwards;
 }
 
 @media (max-width: 1200px) {
@@ -118,10 +118,15 @@
     left: 50%;
     height: 140%;
     width: 140%;
+    animation: none;
   }
 
   .intro-text-container,
   h1 {
     margin-top: 0;
+  }
+
+  .intro-content-text-top {
+    animation: none;
   }
 }

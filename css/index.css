@@ -66,18 +66,19 @@ button:hover {
   color: #ffe4c4;
   font-size: 2rem;
   line-height: 32px;
-  padding: 10px 15px;
-  border-radius: 5px;
   cursor: pointer;
   display: none;
   z-index: 1000;
   padding: 10px 20px;
   margin: 0;
   border-radius: 50%;
+  transition: transform 0.3s ease;
+  transform: scale(0.9);
 }
 
 .scroll-to-top:hover {
   background: rgb(45, 45, 45);
+  transform: scale(1);
 }
 
 img {

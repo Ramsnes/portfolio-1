@@ -5,6 +5,7 @@ a {
 
 li {
   list-style-type: none;
+  animation: popIntoView 1.5s forwards;
 }
 
 ul {
@@ -32,6 +33,19 @@ ul {
 .desktop-menu span {
   grid-column-start: 2;
   grid-column-end: 7;
+  animation: popIntoView 1.5s forwards;
+}
+
+@keyframes popIntoView {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .mobile-menu {
@@ -110,6 +124,10 @@ ul {
   .desktop-menu li a {
     font-size: 1.3rem;
   }
+
+  li {
+    animation: none;
+  }
 }
 
 @media (min-width: 650px) {
@@ -123,6 +141,10 @@ ul {
 }
 
 @media (max-width: 650px) {
+  .intro-content h1 {
+    text-align: center;
+  }
+
   .navbar-links.active {
     background: var(--clr-bg);
     font-size: var(--fs-xl);
@@ -156,6 +178,15 @@ ul {
     justify-content: center;
     align-items: center;
     height: 100vh;
+  }
+
+  .navbar-links.active li {
+    transition: transform 0.3s ease;
+    transform: scale(0.9);
+  }
+
+  .navbar-links.active li:hover {
+    transform: scale(1);
   }
 
   .desktop-menu {
