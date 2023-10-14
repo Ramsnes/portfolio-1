@@ -92,7 +92,7 @@ img {
 .link-hover {
   display: inline-block;
   transition: transform 0.3s ease;
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 .link-hover:hover {
